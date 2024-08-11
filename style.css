@@ -131,7 +131,7 @@ header {
 
 .hero{
   position: relative;
-  background-image: url('header.jpg');
+  background-image: url('images/header.jpg');
   background-position: top;
   background-size: cover;
   height: 90vh;
