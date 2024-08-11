@@ -709,8 +709,8 @@ h1 span {
 .container {
   margin-top: 3em;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+  gap: 2rem; /* Space between the cards */
 }
 
 .card {
@@ -823,6 +823,7 @@ h1 span {
   color: #fff;
   font-size: 1.5rem;
 }
+
 
 /* Media Queries */
 @media (max-width: 768px) {
