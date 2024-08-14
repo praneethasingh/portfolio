@@ -875,9 +875,9 @@ h1 span {
 
 /* project section CSS ends here  */
 /* --------------------------------------------------------------------- */
-/* Blogs section CSS starts here  */
+/* publications section CSS starts here  */
 
-.blogs {
+.publications {
   display: flex;
   flex-direction: column;
   height: 50vh;
@@ -886,7 +886,7 @@ h1 span {
   margin-bottom: 50px;
 }
   
-.blogs .tit{
+.publications .tit{
   width: 100%;
   display: flex;
   justify-content: center;
@@ -894,12 +894,12 @@ h1 span {
   margin-bottom: 20px;
 }
 
-.blogs .tit h1{
+.publications .tit h1{
   font-size: 30px;
   font-family: Leckerli One, sans-serif;
 }
 
-.blogs .con{
+.publications .con{
   width: 100%;
   display: flex;
   justify-content: space-evenly;
@@ -960,7 +960,7 @@ h1 span {
     cursor: pointer;
     transition: all 300ms;
 }
-/* blogs section CSS ends here */
+/* publications section CSS ends here */
 /* ---------------------------------------------------------------------------- */
 /* contact section CSS starts here  */
 body {
