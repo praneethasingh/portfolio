@@ -548,6 +548,7 @@ header {
     height: 20px;
   }
 }
+
 /* skills section CSS ends here  */
 /* ------------------------------------------------------------------------------- */
 /* experience section CSS starts here  */
@@ -631,7 +632,7 @@ h1 span {
 .timeline-content {
   width: 95%;
   padding: 0 15px;
-  color: #060000;
+  color: #666;
   margin-bottom:25px ;
 }
 
@@ -645,14 +646,14 @@ h1 span {
 
 .timeline-content span {
   font-size: 15px;
-  color: #060000;
+  color: #a4a4a4;
 }
 
 .timeline-content p {
   font-size: 14px;
   line-height: 1.5em;
   word-spacing: 1px;
-  color: #060000;
+  color: #888;
 }
 
 
@@ -708,8 +709,8 @@ h1 span {
 .container {
   margin-top: 3em;
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Three equal columns */
-  gap: 2rem; /* Space between the cards */
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 2rem;
 }
 
 .card {
@@ -823,13 +824,6 @@ h1 span {
   font-size: 1.5rem;
 }
 
-
-
-
-
-
-
-
 /* Media Queries */
 @media (max-width: 768px) {
   .container {
@@ -881,9 +875,9 @@ h1 span {
 
 /* project section CSS ends here  */
 /* --------------------------------------------------------------------- */
-/* publications section CSS starts here  */
+/* Blogs section CSS starts here  */
 
-.publications {
+.blogs {
   display: flex;
   flex-direction: column;
   height: 50vh;
@@ -892,7 +886,7 @@ h1 span {
   margin-bottom: 50px;
 }
   
-.publications .tit{
+.blogs .tit{
   width: 100%;
   display: flex;
   justify-content: center;
@@ -900,12 +894,12 @@ h1 span {
   margin-bottom: 20px;
 }
 
-.publications .tit h1{
+.blogs .tit h1{
   font-size: 30px;
   font-family: Leckerli One, sans-serif;
 }
 
-.publications .con{
+.blogs .con{
   width: 100%;
   display: flex;
   justify-content: space-evenly;
@@ -966,7 +960,7 @@ h1 span {
     cursor: pointer;
     transition: all 300ms;
 }
-/* publications section CSS ends here */
+/* blogs section CSS ends here */
 /* ---------------------------------------------------------------------------- */
 /* contact section CSS starts here  */
 body {
@@ -1087,6 +1081,4 @@ body {
     width: 100%;
   }
 }
-/* contact section CSS ends here
-
-  
+/* contact section CSS ends here  */
