@@ -399,7 +399,7 @@ header {
 }
 
 .Skills .container .mainSkill .front , .back , .datasci, .tools{
-  width: calc(50% - 30px);
+  width: 100%;
   max-width: 500px;
   background: transparent;
   border: 1px solid #695aa6;
@@ -548,6 +548,7 @@ header {
     height: 20px;
   }
 }
+
 
 /* skills section CSS ends here  */
 /* ------------------------------------------------------------------------------- */
