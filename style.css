@@ -357,7 +357,7 @@ header {
 /* skills section CSS starts here  */
 .Skills{
   display: block;
-  width: 100%;
+  width: calc(50% - 30px);
   margin-bottom: 30px;
   background-color: #f9f9f9;
 }
