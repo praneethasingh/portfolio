@@ -399,7 +399,7 @@ header {
 }
 
 .Skills .container .mainSkill .front , .back , .datasci, .tools{
-  width: 100%;
+  width: calc(50% - 30px);
   max-width: 500px;
   background: transparent;
   border: 1px solid #695aa6;
