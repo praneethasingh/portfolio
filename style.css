@@ -398,11 +398,8 @@ header {
   justify-content: center;
 }
 
-.Skills .container .mainSkill .front, 
-.Skills .container .mainSkill .back, 
-.Skills .container .mainSkill .datasci, 
-.Skills .container .mainSkill .tools {
-  width: calc(50% - 30px); /* Two boxes per row with a gap */
+.Skills .container .mainSkill .front , .back , .datasci, .tools{
+  width: 100%;
   max-width: 500px;
   background: transparent;
   border: 1px solid #695aa6;
@@ -410,10 +407,7 @@ header {
   padding: 18px 36px;
 }
 
-.Skills .container .mainSkill .front h2, 
-.Skills .container .mainSkill .back h2, 
-.Skills .container .mainSkill .datasci h2, 
-.Skills .container .mainSkill .tools h2 {
+.Skills .container .mainSkill .front h2, .back h2, .datasci h2, .tools h2{
   margin: 0%;
   padding: 0%;
   font-size: 20px;
@@ -432,10 +426,7 @@ header {
   margin-bottom: 20px;
 }
 
-.Skills .container .mainSkill .front .frontSkill, 
-.Skills .container .mainSkill .back .backSkill, 
-.Skills .container .mainSkill .datasci .datasciSkill, 
-.Skills .container .mainSkill .tools .toolsSkill {
+.Skills .container .mainSkill .front .frontSkill, .back .backSkill, .datasci .datasciSkill, .tools .toolsSkill{
   font-size: 14px;
   font-weight: 400;
   font-family: Patrick Hand, cursive;
@@ -449,10 +440,22 @@ header {
   gap: 8px;
 }
 
-.Skills .container .mainSkill .front .box img,
-.Skills .container .mainSkill .back .box img,
-.Skills .container .mainSkill .datasci .box img,
-.Skills .container .mainSkill .tools .box img {
+.Skills .container .mainSkill .front .box img{
+  width: 30px;
+  height: 30px;
+}
+
+.Skills .container .mainSkill .back .box img{
+  width: 30px;
+  height: 30px;
+}
+
+.Skills .container .mainSkill .datasci .box img{
+  width: 30px;
+  height: 30px;
+}
+
+.Skills .container .mainSkill .tools .box img{
   width: 30px;
   height: 30px;
 }
@@ -467,26 +470,25 @@ header {
     margin-bottom: 20px;
   }
 
-  .Skills .container .mainSkill .front, 
-  .Skills .container .mainSkill .back, 
-  .Skills .container .mainSkill .datasci, 
-  .Skills .container .mainSkill .tools {
-    width: 100%; /* Stacks boxes vertically on smaller screens */
+  .Skills .container .mainSkill .front,
+  .back,
+  .datasci,
+  .tools {
     padding: 14px 28px;
   }
 
-  .Skills .container .mainSkill .front h2, 
-  .Skills .container .mainSkill .back h2, 
-  .Skills .container .mainSkill .datasci h2, 
-  .Skills .container .mainSkill .tools h2 {
+  .Skills .container .mainSkill .front h2,
+  .back h2,
+  .datasci h2,
+  .tools h2 {
     font-size: 18px;
     margin-bottom: 16px;
   }
 
-  .Skills .container .mainSkill .front .frontSkill, 
-  .Skills .container .mainSkill .back .backSkill, 
-  .Skills .container .mainSkill .datasci .datasciSkill, 
-  .Skills .container .mainSkill .tools .toolsSkill {
+  .Skills .container .mainSkill .front .frontSkill,
+  .back .backSkill,
+  .datasci .datasciSkill,
+  .tools .toolsSkill {
     font-size: 12px;
     padding: 10px 14px;
   }
@@ -511,25 +513,25 @@ header {
     margin-bottom: 15px;
   }
 
-  .Skills .container .mainSkill .front, 
-  .Skills .container .mainSkill .back, 
-  .Skills .container .mainSkill .datasci, 
-  .Skills .container .mainSkill .tools {
+  .Skills .container .mainSkill .front,
+  .back,
+  .datasci,
+  .tools {
     padding: 10px 20px;
   }
 
-  .Skills .container .mainSkill .front h2, 
-  .Skills .container .mainSkill .back h2, 
-  .Skills .container .mainSkill .datasci h2, 
-  .Skills .container .mainSkill .tools h2 {
+  .Skills .container .mainSkill .front h2,
+  .back h2,
+  .datasci h2,
+  .tools h2 {
     font-size: 16px;
     margin-bottom: 12px;
   }
 
-  .Skills .container .mainSkill .front .frontSkill, 
-  .Skills .container .mainSkill .back .backSkill, 
-  .Skills .container .mainSkill .datasci .datasciSkill, 
-  .Skills .container .mainSkill .tools .toolsSkill {
+  .Skills .container .mainSkill .front .frontSkill,
+  .back .backSkill,
+  .datasci .datasciSkill,
+  .tools .toolsSkill {
     font-size: 10px;
     padding: 8px 12px;
   }
@@ -546,7 +548,6 @@ header {
     height: 20px;
   }
 }
-
 /* skills section CSS ends here  */
 /* ------------------------------------------------------------------------------- */
 /* experience section CSS starts here  */
