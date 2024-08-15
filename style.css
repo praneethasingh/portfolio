@@ -634,7 +634,7 @@ h1 span {
 .timeline-content {
   width: 95%;
   padding: 0 15px;
-  color: #666;
+  color: #060000;
   margin-bottom:25px ;
 }
 
@@ -648,14 +648,14 @@ h1 span {
 
 .timeline-content span {
   font-size: 15px;
-  color: #a4a4a4;
+  color: #060000;
 }
 
 .timeline-content p {
   font-size: 14px;
   line-height: 1.5em;
   word-spacing: 1px;
-  color: #888;
+  color: #060000;
 }
 
 
